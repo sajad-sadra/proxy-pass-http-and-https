@@ -1,0 +1,12 @@
+version: "3.7"
+
+services: 
+  nginx-proxy-pass:
+    image: nginx-proxy-pass
+    ports: 
+      - 80:80
+      - 443:443
+    build: .
+    environment:
+      - RESOLVER=8.8.8.8
+
