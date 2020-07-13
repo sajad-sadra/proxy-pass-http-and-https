@@ -11,9 +11,9 @@ Prepaired docker image
 -----------------------
 Enter this command in the host with <a href="https://docs.docker.com/engine/install/">docker installed</a>.
 <pre><code>docker run --rm -d \ 
-    -p 443:443 -p 80:80 \
-    -e RESOLVER=8.8.8.8 \
-    sajadsadra/proxy-pass-nginx
+-p 443:443 -p 80:80 \
+-e RESOLVER=8.8.8.8 \
+sajadsadra/proxy-pass-nginx
 </code></pre>
 
 Make your own
