@@ -9,4 +9,4 @@ services:
     build: .
     environment:
       - RESOLVER=8.8.8.8
-
+    restart: always
